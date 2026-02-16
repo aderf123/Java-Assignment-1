@@ -1,0 +1,67 @@
+Section A
+1. In your own words, what is Java?
+Java is a high-level, object-oriented programming language used to create applications that can run on different devices. 
+It was designed to be simple, portable, and secure.
+
+2. Explain what makes Java unique as a programming language.
+	•	Platform-independent: Java programs can run on any device with a Java Virtual Machine (JVM).
+	•	Object-oriented: Java focuses on objects and classes.
+	•	Automatic memory management: Java has garbage collection that handles memory automatically.
+	•	Rich API: Java provides many built-in classes for tasks like networking, file handling, and GUI development.
+
+3. List at least three areas where Java is used and briefly explain each one.
+	•	Web Development: Java is used to build dynamic websites and web applications using frameworks like Spring.
+	•	Mobile Development: Android apps are mainly built using Java.
+	•	Enterprise Applications: Java is used in large companies for business software because it is reliable and secure.
+
+4. What is the JDK? Describe its components and why developers need it.
+	•	JDK (Java Development Kit) is a software development kit for Java programmers.
+	•	Components:
+	•	Javac: Java compiler to turn code into bytecode.
+	•	JVM: Runs the bytecode.
+	•	Java API & libraries: Pre-written code to help developers.
+	•	Purpose: Developers need JDK to write, compile, and test Java programs.
+
+5. What is the JVM? Explain its function in the Java program execution process.
+	•	JVM (Java Virtual Machine) is a virtual machine that runs Java bytecode.
+	•	Function: It converts bytecode into machine code that your computer can understand and executes it.
+     It also makes Java programs platform-independent.
+
+6. What is the difference between the JDK and the JVM? Give a simple example.
+JDK (Java Development Kit) is a software development kit for Java programmers.
+it is a tool for writing and compiling java programs, including complier (Javac), libraries and JVM.
+
+While JVM (Java Virtual Machine) is a virtual machine that runs Java bytecode.
+it is a tool for running Java progrms, part of JDK tht executes bytecode.
+
+7. What is the purpose of javac (the Java compiler)?
+javac converts Java source code (.java) into bytecode (.class) so it can run on the JVM.
+
+8. Explain in your own words
+a. What a Java class is:
+A class is a blueprint for creating objects. It defines variables (attributes) and methods (functions) that objects will have.
+
+b. What is an object in Java, and how is it related to a class:
+An object is a real instance of a class. If a class is a blueprint, the object is the actual house built from it.
+
+9. Why must every Java program have at least one class?
+Because Java is an object-oriented language, all code must belong to a class. There’s no way to write standalone code outside a class.
+
+10. What is the main method in Java and why is it important?
+The main method is the entry point of a Java program. It tells the JVM where to start executing the program.
+
+
+
+Section B
+1. What is bytecode?
+Bytecode is the intermediate code that the Java compiler generates.
+ It is platform-independent and can be run on any machine with a JVM.
+
+2. Explain the difference between source code, bytecode, and machine code in your own words.
+	•	Source code: Human-readable code written by a programmer (.java).
+	•	Bytecode: Compiled code from the source code (.class) that the JVM can understand.
+	•	Machine code: Binary code that the computer’s processor executes directly.
+
+3. What role does the JVM play when running a Java program?
+The JVM reads bytecode, converts it into machine code, and executes it. 
+It ensures Java programs can run on any device without modification.
